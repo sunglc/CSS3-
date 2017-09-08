@@ -1,0 +1,401 @@
+body{
+	margin: 0;
+	padding:0;
+	font:normal 62.5%;
+}
+a{
+	display: block;
+}
+table{
+	border-collapse:collapse;
+}
+/*DIV部分*/
+/*main*/
+.glc-main{
+	min-width: 1200px;
+	font-family: "微软雅黑";
+}
+/*bannerDIV*/
+.glc-banner{
+	position: relative;
+	min-width: 1200px;
+}
+/*centerDIV*/
+.glc-center{
+	position: relative;
+	min-width: 1200px;
+	margin-top: -5px;
+}
+/*/*bottomDIV*/
+.glc-bottom{
+	position: relative;
+	min-width: 1200px;
+	margin-top: -5px;
+}
+/*下部表格DIV*/
+.glc-table{
+	position: absolute;
+	z-index: 1;
+	left:  22.5%;
+	top: 25.694444%;
+	width: 54.6875%;
+	min-width: 656.25px;
+	height: 29.652778%;
+	font-size: 1.2vw;
+
+
+}
+/*下部解释文本DIV*/
+.glc-exp{
+	position: absolute;
+	z-index: 1;
+	left:  22.5%;
+	top: 56.6%;
+	width: 54.6875%;
+	min-width: 656.25px;
+	height: 19.1%;
+}
+/*图片部分*/
+/*banner图*/
+.glc-bannerImg{
+	width: 100%;
+}
+/*center图*/
+.glc-centerImg{
+	width: 100%;
+}
+/*bottom图*/
+.glc-bottomImg{
+	width: 100%;
+}
+/*banner图的icon*/
+.glc-icon{
+	position: absolute;
+	z-index: 1;
+	-webkit-animation:bigger 1.5s linear infinite alternate;
+	   -moz-animation:bigger 1.5s linear infinite alternate;
+	     -o-animation:bigger 1.5s linear infinite alternate;
+	        animation:bigger 1.5s linear infinite alternate;
+}
+@-webkit-keyframes bigger{
+	from{
+		-webkit-transform: scale(.5);
+		   -moz-transform: scale(.5);
+			 -o-transform: scale(.5);
+		        transform: scale(.5);
+		}
+	to{
+		-webkit-transform: scale(1.2);
+		   -moz-transform: scale(1.2);
+			 -o-transform: scale(1.2);		
+		        transform: scale(1.2);
+	}
+}
+@-moz-keyframes bigger{
+	from{
+		-webkit-transform: scale(.5);
+		   -moz-transform: scale(.5);
+			 -o-transform: scale(.5);
+		        transform: scale(.5);
+	}
+	to{
+		-webkit-transform: scale(1.2);
+		   -moz-transform: scale(1.2);
+			 -o-transform: scale(1.2);
+		        transform: scale(1.2);
+	}
+}
+@-o-keyframes bigger{
+	from{
+		-webkit-transform: scale(.5);
+		   -moz-transform: scale(.5);
+			 -o-transform: scale(.5);
+		        transform: scale(.5);
+		}
+	to{
+		-webkit-transform: scale(1.2);
+		   -moz-transform: scale(1.2);
+			 -o-transform: scale(1.2);
+		        transform: scale(1.2);
+		}
+}
+@keyframes bigger{
+	from{
+		-webkit-transform: scale(0.5);
+		   -moz-transform: scale(0.5);
+			 -o-transform: scale(0.5);
+		        transform: scale(0.5);
+		}
+	to{
+		-webkit-transform: scale(1.2);
+		   -moz-transform: scale(1.2);
+			 -o-transform: scale(1.2);
+		        transform: scale(1.2);
+		}
+}
+/*go-one*/
+.go-one{
+	left: 27.1%;
+	top:47.9%;
+	width: 2.083333%;
+	min-width: 25px;
+}
+/*go-two*/
+.go-two{
+	left: 46.1%;
+	top: 78%;
+	width: 7.552083%;
+	min-width: 90.6px;
+	z-index: 999;
+	opacity: 0;
+	-webkit-animation:down 2.5s linear forwards;
+	   -moz-animation:down 2.5s linear forwards;
+	     -o-animation:down 2.5s linear forwards;
+	        animation:down 2.5s linear forwards;
+}
+@-webkit-keyframes down{
+	form{top: 78%;}
+	to{top: 49%; opacity: 1;}
+}
+@-moz-keyframes down{
+	form{top: 78%;}
+	to{top: 49%; opacity: 1;}
+}
+@-o-keyframes down{
+	form{top: 78%;}
+	to{top: 49%; opacity: 1;}
+}
+@keyframes down{
+	form{top: 78%;}
+	to{top: 49%; opacity: 1;}
+}
+/*ruizeIcon*/
+.ruizeIcon{
+	left: 32%;
+	top: 61%;
+	width: 3.4375%;
+	min-width: 41.25px;
+
+}
+/*ruize*/
+.ruize{
+	left: 63.67%;
+	top: 59.6%;
+	width: 5.208333%;
+	min-width: 62.5px;
+}
+/*pointerIcon*/
+.pointerIcon{
+	left: 48.3%;
+	top: 0;
+	width: 3.125%;
+	min-width: 37.5px;
+	-webkit-animation: downTwo 3.5s linear infinite; 
+	   -moz-animation: downTwo 3.5s linear infinite; 
+	     -o-animation: downTwo 3.5s linear infinite; 
+	        animation: downTwo 3.5s linear infinite; 
+}
+@-webkit-keyframes downTwo{
+	from{top: -1%;
+		-webkit-transform: scale(.5);
+           -moz-transform: scale(.5);
+             -o-transform: scale(.5);
+		        transform: scale(.5);
+		}
+	to{top:4%;
+		-webkit-transform: scale(1.2);
+           -moz-transform: scale(1.2);
+             -o-transform: scale(1.2);
+		        transform: scale(1.2);
+		}
+}
+@-moz-keyframes downTwo{
+	from{top: -1%;
+		-webkit-transform: scale(.5);
+           -moz-transform: scale(.5);
+             -o-transform: scale(.5);
+		        transform: scale(.5);
+	}
+	to{top:4%;
+		-webkit-transform: scale(1.2);
+           -moz-transform: scale(1.2);
+             -o-transform: scale(1.2);
+		        transform: scale(1.2);
+	}
+}
+@-o-keyframes downTwo{
+	from{top: -1%;
+		-webkit-transform: scale(.5);
+		   -moz-transform: scale(.5);
+		     -o-transform: scale(.5);
+		        transform: scale(.5);
+		}
+	to{top:4%;
+		-webkit-transform: scale(1.2);
+		   -moz-transform: scale(1.2);
+		     -o-transform: scale(1.2);
+		        transform: scale(1.2);
+		}
+}
+@keyframes downTwo{
+	from{top: -1%;
+		-webkit-transform: scale(.5);
+           -moz-transform: scale(.5);
+             -o-transform: scale(.5);
+		        transform: scale(.5);
+		}
+	to{top:4%;
+		-webkit-transform: scale(1.2);
+           -moz-transform: scale(1.2);
+             -o-transform: scale(1.2);
+		        transform: scale(1.2);
+		}
+}
+/*plane*/
+.glc-plane{
+	width: 5%;
+	min-width: 60px;
+	-webkit-animation:movePlane 4s linear forwards;
+	   -moz-animation:movePlane 4s linear forwards;
+         -o-animation:movePlane 4s linear forwards;
+	        animation:movePlane 4s linear forwards;
+}
+
+@-webkit-keyframes movePlane{
+	0%{left: 62.5%;top: 10%;opacity: 0;}
+	50%{left: 46.25%;top: 5%;}
+	100%{left: 30%;top:10%;}
+}
+@-moz-keyframes movePlane{
+	0%{left: 62.5%;top: 10%;opacity: 0;}
+	50%{left: 46.25%;top: 5%;}
+	100%{left: 30%;top:10%;}
+}
+@-o-keyframes movePlane{
+	0%{left: 62.5%;top: 10%;opacity: 0;}
+	50%{left: 46.25%;top: 5%;}
+	100%{left: 30%;top:10%;}
+}
+@keyframes movePlane{
+	0%{left: 62.5%;top: 10%;opacity: 0;}
+	50%{left: 46.25%;top: 5%;}
+	100%{left: 30%;top:10%;}
+}
+/*礼券*/
+.glc-gift{
+	position: absolute;
+	z-index: 1;
+} 
+/*上部礼券相同样式*/
+.gift-top{
+	top: 32.258065%;
+	width: 14.0625%;
+	min-width: 168.75px;
+	float: left;
+	opacity: .3;
+}
+
+/*下部礼券的相同样式*/
+.gift-under{
+	top: 53.225806%;
+	width: 19.791667%;
+	min-width: 237.5px;
+	float: left;
+	opacity: .6;
+}
+
+/*第一个礼券*/
+.gift-top-one{
+	left: 15.9375%;
+}
+/*礼券鼠标悬停样式*/
+.glc-a :hover{
+	opacity: 1;
+	-webkit-transition: opacity 1s linear;
+       -moz-transition: opacity 1s linear;
+         -o-transition: opacity 1s linear;
+	        transition: opacity 1s linear;
+	-webkit-transform: translateX(15px);
+       -moz-transform: translateX(15px);
+         -o-transform: translateX(15px);
+	        transform: translateX(15px);
+}
+/*第二个礼券*/
+.gift-top-two{
+	left: 31.927083%;
+}
+/*第三个礼券*/
+.gift-top-three{
+	left: 48.125%;
+}
+/*第四个礼券*/
+.gift-top-four{
+	left: 64.479167%;
+}
+/*第五个礼券*/
+.gift-under-one{
+	left: 15.9375%;
+}
+/*第六个礼券*/
+.gift-under-two{
+	left: 37.5%;
+}
+/*第七个礼券*/
+.gift-under-three{
+	left: 59%;
+}
+/*立即注册*/
+.glc-btn{
+	left: 44.427083%;
+	top: 80%;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	width: 10.677083%;
+	min-width: 128px;
+}
+.glc-btna :hover{
+	-webkit-transform:scale(.8);
+       -moz-transform:scale(.8);
+         -o-transform:scale(.8);
+	        transform:scale(.8);
+}
+/*表格样式*/
+.glc-tableOne{
+	width: 100%;
+	height: 100%;
+}
+.glc-tableOne > thead{
+	background-color: #3a8fe2;
+	text-align: center;
+}
+.glc-tableOne > tbody{
+	text-align: center;
+}
+
+.glc-tableOne tr:nth-child(2n){
+	background-color: #e21a49;
+	color: #d6cd9d;
+}
+.glc-tableOne th{
+	background-color: #3a8fe2;
+	color: #d6cd9d;
+	line-height: 4vmax;
+}
+.glc-tableOne tr:nth-child(2n){
+	color: #3a8fe2;
+}
+.glc-tableExp{
+	width: 100%;
+	height: 100%;
+	font-size: 1.2vw;
+	color: #3a8fe2;
+}
+@media screen and (max-width: 900px){
+	.glc-table{
+		font-size: 15px;
+	}
+	.glc-tableExp{
+		font-size: 15px;
+	}
+}
